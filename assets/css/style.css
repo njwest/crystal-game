@@ -1,0 +1,18 @@
+.crystal{
+	width: 25%;
+	height: 25%;
+	height: 25%;
+}
+
+#game-title{
+	color: #d21034;
+}
+
+#pwrCounter{
+	color: #FFD700;
+	text-decoration-style: bold;
+}
+
+.green{
+	color: #FFD700
+}
