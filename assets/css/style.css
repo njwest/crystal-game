@@ -1,7 +1,15 @@
+.background{
+	background-image: url("../images/chern.jpg");
+}
+
+.container{
+	margin-top: 15%;
+	background: rgba(25,25,25,.5);
+}
+
 .crystal{
-	width: 25%;
-	height: 25%;
-	height: 25%;
+	width: 20%;
+	height: 20%;
 }
 
 #game-title{
@@ -9,10 +17,14 @@
 }
 
 #pwrCounter{
-	color: #FFD700;
+	color: #537591;
 	text-decoration-style: bold;
 }
 
 .green{
-	color: #FFD700
+	color: #FFD700;
+}
+
+.blue{
+	color: #537591;
 }
