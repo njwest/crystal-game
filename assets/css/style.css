@@ -9,7 +9,7 @@
 	margin-top: 20px;
 	width: 80%;
 	background: rgba(32,178,218,.9);
-	padding-bottom: 50px;
+	padding-bottom: 15px;
 	text-align: center;
 	border: 5px outset #DAA520;
 	
@@ -21,13 +21,11 @@
 }
 
 #game-title{
+	margin-right: 15%;
+	margin-left: 15%;
 	font-size: 4em;
-	color: #ffffff;
+	color: #d21034;
 	text-shadow:0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
                0 6px 1px rgba(0,0,0,.1),
                0 0 5px rgba(0,0,0,.1),
                0 1px 3px rgba(0,0,0,.3),
@@ -35,10 +33,13 @@
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-   background: rgba(32,178,218,.5);
-   border: 2px inset #ffffff;
+   background: rgba(56,65,51,.5);
+   border: 2px inset #DAA520;
    border-radius: 25px;
 }
+
+#gameObjects{
+	margin-top: 10px;
 }
 
 #dialogue {
@@ -48,6 +49,19 @@
 #pwrCounter{
 	color: #FFD700;
 	text-decoration-style: bold;
+}
+
+#discharge{
+
+}
+
+#cash{
+	color:#216C2A;
+
+}
+
+.green{
+	color:#00FF00;
 }
 
 .gold{
@@ -63,5 +77,9 @@
 }
 
 .teal{
-	color:#20daa5;
+	color: #20daa5;
+}
+
+.sage{
+	color: #90a681;
 }
