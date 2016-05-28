@@ -1,10 +1,18 @@
 .background{
 	background-image: url("../images/chern.jpg");
-}
+	background-height: 100%;
+	background-repeat: no-repeat;
+	background-color: #DAA520;
+	}
 
 .container{
-	margin-top: 15%;
-	background: rgba(25,25,25,.5);
+	margin-top: 20px;
+	width: 80%;
+	background: rgba(32,178,218,.9);
+	padding-bottom: 50px;
+	text-align: center;
+	border: 5px outset #DAA520;
+	
 }
 
 .crystal{
@@ -13,18 +21,47 @@
 }
 
 #game-title{
-	color: #d21034;
+	font-size: 4em;
+	color: #ffffff;
+	text-shadow:0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+   background: rgba(32,178,218,.5);
+   border: 2px inset #ffffff;
+   border-radius: 25px;
+}
+}
+
+#dialogue {
+
 }
 
 #pwrCounter{
-	color: #537591;
+	color: #FFD700;
 	text-decoration-style: bold;
 }
 
-.green{
+.gold{
 	color: #FFD700;
+}
+
+.goldenRod{
+	color: #DAA520;
 }
 
 .blue{
 	color: #537591;
+}
+
+.teal{
+	color:#20daa5;
 }
